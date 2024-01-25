@@ -61,32 +61,31 @@
 
 .nav-search {
     position: absolute;
-    left: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 1rem;
+    left: 15%;
+
 }
 
 
-.nav-search select option {
-    height: 8rem;
-    width: 20%;
+/* .nav-search select option {
+    height: 4rem;
+    width: 20%; 
+} */
+
+.nav-search select {
+    height: 2.7rem;
+    width: 4rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
 }
 
 .nav-search input {
-    margin-left: 2.5rem;
-    padding: 12px;
-    height: 2.3rem;
-    width: 240%;
-    border-radius: 0.2rem;
-    top: -20%;
+    height: 2.7rem;
+    width: 40rem;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0.3rem;
+    left: 4rem;
 }
-
-/* .search-icon {
-    background-color: rgb(241, 157, 0);
-    height: 2rem;
-    width: 2rem;
-    border: 2px solid black;
-    margin-left: 100%;
-    margin-top: -12%;
-    padding-block: 4px;
-    padding-left: 4.6px;
-} */
