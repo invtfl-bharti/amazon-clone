@@ -7,21 +7,22 @@
 
 /* navigation bar */
 
-.navbar {
-
+/* .navbar {
     height: 4rem;
     width: 100%;
     background-color: #0F1111;
-}
+} */
 
 .navbar-main {
+    height: 4rem;
+    width: 100%;
+    background-color: #0F1111;
     position: relative;
 }
 
 .logo {
-    height: 4rem;
+    height: 3.8rem;
     width: 8rem;
-
 }
 
 .logo:hover {
@@ -39,20 +40,53 @@
     top: 0.5rem;
     /* bottom: 1rem; */
     color: white;
-    padding: 10px 10px 10px 10px;
+    padding: 7px 4px 10px 4px;
     height: 3rem;
-    width: 5rem;
+    width: 5.5rem;
 
 }
 
-.nav-address:hover{
+.nav-address:hover {
     border: 2px solid white;
 }
 
 .top {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 .place {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
 }
+
+.nav-search {
+    position: absolute;
+    left: 17%;
+    top: 1rem;
+}
+
+
+.nav-search select option {
+    height: 8rem;
+    width: 20%;
+}
+
+.nav-search input {
+    margin-left: 2.5rem;
+    padding: 12px;
+    height: 2.3rem;
+    width: 240%;
+    border-radius: 0.2rem;
+    top: -20%;
+}
+
+/* .search-icon {
+    background-color: rgb(241, 157, 0);
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid black;
+    margin-left: 100%;
+    margin-top: -12%;
+    padding-block: 4px;
+    padding-left: 4.6px;
+} */
