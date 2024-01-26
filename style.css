@@ -135,10 +135,18 @@ p.accounts {
 }
 
 .cart {
+    position: relative;
     margin-left: 1.6rem;
     margin-top: 0.6rem;
     height: 3rem;
     padding-right: 4px;
+}
+
+.items{
+    position: absolute;
+    left: 19px;
+    font-size: 1.2rem;
+    color: orange;
 }
 
 .cart:hover {
