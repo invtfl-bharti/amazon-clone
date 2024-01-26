@@ -360,34 +360,39 @@ footer {
 
 }
 
+footer {
+    background-color: #222f3d;
+    height: 80vh;
+}
+
 .footer-section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #222f3d;
     color: white;
-    height: 60vh;
-    padding: 0px 2.5rem 0px 2.5rem;
-    position: relative;
+    height: 17rem;
+    padding: 0px 4.5rem 0px 2.5rem;
+    /* position: relative; */
 }
 
 .panel-1 {
-    margin-top: -20%;
+    margin-top: -1.6%;
     width: 15%;
 }
 
 .panel-2 {
-    margin-top: -20%;
+    margin-top: -2.8%;
     width: 15%;
 }
 
 .panel-3 {
-    margin-top: -16%;
+    /* margin-top: -4%; */
     width: 17%;
 }
 
 .panel-4 {
-    margin-top: -17%;
+    margin-top: -1%;
     width: 15%;
 }
 
@@ -397,19 +402,70 @@ ul a {
     align-items: center;
     padding: 6px;
     font-size: 0.9rem;
+
 }
 
-.footer-logo{
+ul a:hover {
+    text-decoration: underline;
+}
 
-    border: 2px solid red;
+.footer-logo {
+
+    border-top: 0.5px solid white;
 }
 
 .footer-logo img {
     height: 5rem;
     width: 5.5rem;
     background-size: cover;
-    position: absolute;
-    right: 50%;
-    bottom: 8rem;
+    /* position: absolute; */
+    margin-left: 40%;
+    margin-top: 3%;
+    /* bottom: 8rem;right: 60%; */
 
+}
+
+.language {
+
+    margin-left: 50%;
+    margin-top: -4.8%;
+}
+
+
+
+select {
+
+    height: 2rem;
+    width: 7rem;
+    color: white;
+    background-color: #222f3d;
+}
+
+.countries a {
+    color: white;
+
+}
+
+.places {
+    display: flex;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.footer-section2{
+    margin-top: 1rem;
+    height:12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #192128;
+    padding: 4rem 0px 0px 10rem;
+    color: white;
+}
+.footer-section2 a{
+    font-size: 0.8rem;
+}
+
+
+.footer-section2 a:hover{
+    text-decoration: underline;
 }
