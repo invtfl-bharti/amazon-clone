@@ -220,7 +220,7 @@ p.accounts {
 }
 
 .pdt1-img {
-    background-size: cover ;
+    background-size: cover;
     height: 17rem;
 }
 
@@ -228,13 +228,14 @@ p.accounts {
     margin: 10px 20px 20px 20px;
 }
 
-.pdt1-content p{
+.pdt1-content p {
     margin-top: 0.6rem;
     color: #007185;
 
 }
+
 .pdt2-img {
-    background-size: cover ;
+    background-size: cover;
     height: 17rem;
 }
 
@@ -242,13 +243,14 @@ p.accounts {
     margin: 10px 20px 20px 20px;
 }
 
-.pdt2-content p{
+.pdt2-content p {
     margin-top: 0.6rem;
     color: #007185;
 
 }
+
 .pdt3-img {
-    background-size: cover ;
+    background-size: cover;
     height: 17rem;
 }
 
@@ -256,13 +258,14 @@ p.accounts {
     margin: 10px 20px 20px 20px;
 }
 
-.pdt3-content p{
+.pdt3-content p {
     margin-top: 0.6rem;
     color: #007185;
 
 }
+
 .pdt4-img {
-    background-size: cover ;
+    background-size: cover;
     height: 17rem;
 }
 
@@ -270,13 +273,14 @@ p.accounts {
     margin: 10px 20px 20px 20px;
 }
 
-.pdt4-content p{
+.pdt4-content p {
     margin-top: 0.6rem;
     color: #007185;
 
 }
+
 .pdt5-img {
-    background-size: cover ;
+    background-size: cover;
     height: 17rem;
 }
 
@@ -284,13 +288,14 @@ p.accounts {
     margin: 10px 20px 20px 20px;
 }
 
-.pdt5-content p{
+.pdt5-content p {
     margin-top: 0.6rem;
     color: #007185;
 
 }
+
 .pdt6-img {
-    background-size: cover ;
+    background-size: cover;
     height: 17rem;
 }
 
@@ -298,13 +303,14 @@ p.accounts {
     margin: 10px 20px 20px 20px;
 }
 
-.pdt6-content p{
+.pdt6-content p {
     margin-top: 0.6rem;
     color: #007185;
 
 }
+
 .pdt7-img {
-    background-size: cover ;
+    background-size: cover;
     height: 17rem;
 }
 
@@ -312,13 +318,14 @@ p.accounts {
     margin: 10px 20px 20px 20px;
 }
 
-.pdt7-content p{
+.pdt7-content p {
     margin-top: 0.6rem;
     color: #007185;
 
 }
+
 .pdt8-img {
-    background-size: cover ;
+    background-size: cover;
     height: 17rem;
 }
 
@@ -326,8 +333,83 @@ p.accounts {
     margin: 10px 20px 20px 20px;
 }
 
-.pdt8-content p{
+.pdt8-content p {
     margin-top: 0.6rem;
     color: #007185;
+
+}
+
+footer {
+    margin-top: 10rem;
+}
+
+
+.top-button {
+    height: 3rem;
+    background-color: #37475a;
+    position: relative;
+}
+
+.top-button p {
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    height: 60vh;
+    padding: 0px 2.5rem 0px 2.5rem;
+    position: relative;
+}
+
+.panel-1 {
+    margin-top: -20%;
+    width: 15%;
+}
+
+.panel-2 {
+    margin-top: -20%;
+    width: 15%;
+}
+
+.panel-3 {
+    margin-top: -16%;
+    width: 17%;
+}
+
+.panel-4 {
+    margin-top: -17%;
+    width: 15%;
+}
+
+ul a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6px;
+    font-size: 0.9rem;
+}
+
+.footer-logo{
+
+    border: 2px solid red;
+}
+
+.footer-logo img {
+    height: 5rem;
+    width: 5.5rem;
+    background-size: cover;
+    position: absolute;
+    right: 50%;
+    bottom: 8rem;
 
 }
