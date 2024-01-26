@@ -62,10 +62,11 @@
 .all {
     height: 2.6rem;
     width: 4rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     border-radius: 4px;
     text-align: center;
     background-color: rgb(239, 238, 238);
+    color: black;
 }
 
 .search-bar {
@@ -202,6 +203,10 @@ p.accounts {
 .hero-txt a {
     color: #007185;
 
+}
+.hero-txt a:hover{
+    color: blue;
+    text-decoration: underline;
 }
 
 .shopping-section {
@@ -457,6 +462,7 @@ select {
     height:12rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
     background-color: #192128;
     padding: 4rem 0px 0px 10rem;
     color: white;
