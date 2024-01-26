@@ -13,4 +13,5 @@ Include screenshots or GIFs of the main sections of your Amazon clone to give us
 ## Installation
 1. Clone the repository to your local machine.
    ```bash
+    https://github.com/invtfl-bharti/amazon-clone.git
   
