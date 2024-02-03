@@ -23,6 +23,7 @@ Clone the repository and open the `index.html` file in your web browser to view 
 ```bash
 https://invtfl-bharti.github.io/amazon-clone/
 
+##Contributing
 ```bash
 https://github.com/invtfl-bharti/amazon-clone.git
 cd amazon-clone
