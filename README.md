@@ -6,6 +6,7 @@ This is a simple Amazon clone website with HTML and CSS.
 - [Description](#description)
 - [Screenshots](#screenshots)
 - [Usage](#usage)
+- [LivePreview](#preview)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -17,6 +18,10 @@ Include some screenshots or a gif demonstrating the appearance and functionality
 
 ## Usage
 Clone the repository and open the `index.html` file in your web browser to view the Amazon clone.
+
+##LivePreview
+```bash
+https://invtfl-bharti.github.io/amazon-clone/
 
 ```bash
 https://github.com/invtfl-bharti/amazon-clone.git
